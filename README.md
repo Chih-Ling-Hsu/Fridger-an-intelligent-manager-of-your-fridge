@@ -12,7 +12,7 @@
 
 ## System Architecture Plot
 
-![](https://i.imgur.com/6WZuoMP.png =500x)
+![](https://i.imgur.com/tKNtdAo.png)
 
 
 ## Services to Be Used
