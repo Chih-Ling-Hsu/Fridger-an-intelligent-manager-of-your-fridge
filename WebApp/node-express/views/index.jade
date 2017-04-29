@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  div(id="app")
+  textarea(id='textarea')
+  script(type='text/javascript' src='/javascripts/awsConfig.js')
+  script(type='text/javascript' src='/javascripts/album.js')
+  script(type='text/javascript' src='/javascripts/connectDB.js')
+  script(type='text/javascript' src='/javascripts/index.js')
