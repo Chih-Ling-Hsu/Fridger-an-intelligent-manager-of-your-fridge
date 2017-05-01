@@ -9,14 +9,14 @@ function createModal(reko_result, imagename){
 	var i, footer;
   var photoUrl = bucketUrl + encodeURIComponent(imagename);   
 	$('h4.modal-title').html(reko_result);
-	$('div.modal-body').html("<img src='"+photoUrl+"''>");
-  var footer = '<button type="button" class="btn btn-info">Rename</button>&nbsp;&nbsp;<button type="button" class="btn btn-warning">Set Expiration Time</button>';
+	$('div.modal-body').html("<img style='width:100%' src='"+photoUrl+"''>");
+  var footer = '<button type="button" class="btn btn">Rename</button>&nbsp;&nbsp;<button type="button" class="btn btn-warning">Set Expiration Time</button>';
 	$('div.modal-footer').html(footer);
 }
 
  $(function(){				
     $('#show_space').click(function(e){
-        $('.menu-space').css('background-color','#8fbc8f');
+        $('#spacebtn').css('background-color','#008b8b');
         e.preventDefault();
         var data = {};
         data.title = "title";
@@ -33,9 +33,9 @@ function createModal(reko_result, imagename){
               var itemList = "";
               for(key in data){
                 itemList += getHtml([
-                  '<div class="item" data-toggle="modal" data-target="#myModal" onclick=\'createModal("'+data[key]["reko_result"]+'","'+data[key]["imagename"]+'")\'>',
-                  data[key]["reko_result"],
-                  '<div class="itembtn"><button type="button" class="btn btn-info">Rename</button>&nbsp;&nbsp;<button type="button" class="btn btn-warning">Set Expiration Time</button></div>',
+                  '<div class="row item" data-toggle="modal" data-target="#myModal" onclick=\'createModal("'+data[key]["reko_result"]+'","'+data[key]["imagename"]+'")\'>',
+                  '<div class="col-sm-8">'+data[key]["reko_result"]+'</div>',
+                  '<div class="col-sm-4 item-btn-group"><button type="button" class="btn">Rename</button>&nbsp;&nbsp;<button type="button" class="btn btn-warning">Set Expiration Time</button></div>',
                   '</div>'
                 ])
               }

@@ -10,11 +10,13 @@ html
     script(type='text/javascript' src='/javascripts/aws-sdk-2.7.20.min.js')
   body
     div(class="jumbotron" id="title")
-      h1 Fridger
-      h3 An intelligent manager of your fridge.   
-    div(class="menu-space")
-      img(src="images/list-icon.png" class="menubtn" id="show_space")
-    div(class="menu-recipe")
-      img(src="images/recipe-icon.png" class="menubtn") 
+      div(class="row")
+        div(class="col-sm-8")
+          h1 Fridger
+          h3 An intelligent manager of your fridge.   
+        div(class="col-sm-2 menu" id="spacebtn")
+          img(src="images/list-icon.png" class="menubtn" id="show_space")
+        div(class="col-sm-2 menu")
+          img(src="images/recipe-icon.png" class="menubtn") 
     div(class="container mainblk")
       block content
