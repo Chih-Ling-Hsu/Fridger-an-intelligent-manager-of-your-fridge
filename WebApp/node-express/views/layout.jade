@@ -2,11 +2,11 @@ doctype html
 html
   head
     title Fridger
-    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
     link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Rosario:400,700')
     link(rel='stylesheet', href='/stylesheets/style.css')
     script(type='text/javascript' src='/javascripts/jquery-3.2.1.js')
-    script(type='text/javascript' src='/javascripts/bootstrap.min.js')
+    script(type='text/javascript' src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
     script(type='text/javascript' src='/javascripts/aws-sdk-2.7.20.min.js')
   body
     div(class="jumbotron" id="title")
@@ -14,9 +14,11 @@ html
         div(class="col-sm-8")
           h1 Fridger
           h3 An intelligent manager of your fridge.   
-        div(class="col-sm-2 menu" id="spacebtn")
-          img(src="images/list-icon.png" class="menubtn" id="show_space")
-        div(class="col-sm-2 menu")
-          img(src="images/recipe-icon.png" class="menubtn") 
+        div(class="col-sm-4")
+          div(class="col-sm-5 menu" id="spacebtn")
+            img(src="images/list-icon.png" class="menubtn")
+          div(class="col-sm-1")
+          div(class="col-sm-5 menu" id="recipebtn")
+            img(src="images/recipe-icon.png" class="menubtn") 
     div(class="container mainblk")
       block content

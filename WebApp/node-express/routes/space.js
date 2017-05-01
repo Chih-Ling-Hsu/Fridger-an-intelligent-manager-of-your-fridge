@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
+// handle "./space" post request
 router.post('/', function(req, res, next){
 	var Region = 'us-east-1';
     var DBEndPoint = 'https://dynamodb.us-east-1.amazonaws.com';
