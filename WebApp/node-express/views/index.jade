@@ -1,11 +1,21 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  //div(id="menu")
+  //  img(src="images/list-icon.png" class="menu" id="show_space")
+  //  img(src="images/recipe-icon.png" class="menu")
   div(id="app")
-  textarea(id='textarea')
+  div(id="list")
+  div(id="myModal" class="modal fade" role="dialog")
+    div(class="modal-dialog")
+      div(class="modal-content")
+        div(class="modal-header")
+          button(type="button" class="close" data-dismiss="modal") &times;
+          h4(class="modal-title")        
+        div(class="modal-body" style="text-align: center; padding-left:50px; padding-right:50px;")        
+        div(class="modal-footer" style='margin:15px;, padding:0px; text-align: center; word-wrap: break-word;word-break: break-all;')  
   script(type='text/javascript' src='/javascripts/awsConfig.js')
-  script(type='text/javascript' src='/javascripts/album.js')
-  script(type='text/javascript' src='/javascripts/connectDB.js')
-  script(type='text/javascript' src='/javascripts/index.js')
+  script(type='text/javascript' src='/javascripts/space.js')
+  //script(type='text/javascript' src='/javascripts/spaceManage.js')
+  //script(type='text/javascript' src='/javascripts/recipe.js')
+  //script(type='text/javascript' src='/javascripts/recipeRecom.js')

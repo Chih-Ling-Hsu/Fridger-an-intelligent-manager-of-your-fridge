@@ -1,5 +1,0 @@
-listAlbums();
-//scanData();
-//createMovies();
-
-

@@ -1,8 +1,20 @@
 doctype html
 html
   head
-    title= title
+    title Fridger
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Rosario:400,700')
     link(rel='stylesheet', href='/stylesheets/style.css')
+    script(type='text/javascript' src='/javascripts/jquery-3.2.1.js')
+    script(type='text/javascript' src='/javascripts/bootstrap.min.js')
     script(type='text/javascript' src='/javascripts/aws-sdk-2.7.20.min.js')
   body
-    block content
+    div(class="jumbotron" id="title")
+      h1 Fridger
+      h3 An intelligent manager of your fridge.   
+    div(class="menu-space")
+      img(src="images/list-icon.png" class="menubtn" id="show_space")
+    div(class="menu-recipe")
+      img(src="images/recipe-icon.png" class="menubtn") 
+    div(class="container mainblk")
+      block content

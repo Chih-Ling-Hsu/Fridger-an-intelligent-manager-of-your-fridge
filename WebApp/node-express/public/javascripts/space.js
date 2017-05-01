@@ -1,55 +1,105 @@
 var albumBucketName = 'rekognition-image-102062329';
+var bucketUrl = "https://s3.amazonaws.com/rekognition-image-102062329/"
 
-/*
-var bucketRegion = 'us-east-1';
-var IdentityPoolId = 'us-east-1:9c06fc52-4277-475e-b2ea-09c4c3c208bd';
+function getHtml(template) {
+  return template.join('\n');
+}
 
+function createModal(reko_result, imagename){
+	var i, footer;
+  var photoUrl = bucketUrl + encodeURIComponent(imagename);   
+	$('h4.modal-title').html(reko_result);
+	$('div.modal-body').html("<img src='"+photoUrl+"''>");
+  var footer = '<button type="button" class="btn btn-info">Rename</button>&nbsp;&nbsp;<button type="button" class="btn btn-warning">Set Expiration Time</button>';
+	$('div.modal-footer').html(footer);
+}
 
-AWS.config.update({
-  region: bucketRegion,
-  credentials: new AWS.CognitoIdentityCredentials({
-    IdentityPoolId: IdentityPoolId
-  })
+ $(function(){				
+    $('#show_space').click(function(e){
+        $('.menu-space').css('background-color','#8fbc8f');
+        e.preventDefault();
+        var data = {};
+        data.title = "title";
+        data.message = "message";
+        
+        $.ajax({
+          type: 'POST',
+          data: JSON.stringify(data),
+          contentType: 'application/json',
+          url: './space',						
+          success: function(data) {
+              console.log('success');
+              console.log(JSON.stringify(data));
+              var itemList = "";
+              for(key in data){
+                itemList += getHtml([
+                  '<div class="item" data-toggle="modal" data-target="#myModal" onclick=\'createModal("'+data[key]["reko_result"]+'","'+data[key]["imagename"]+'")\'>',
+                  data[key]["reko_result"],
+                  '<div class="itembtn"><button type="button" class="btn btn-info">Rename</button>&nbsp;&nbsp;<button type="button" class="btn btn-warning">Set Expiration Time</button></div>',
+                  '</div>'
+                ])
+              }
+              $('#list').html(itemList);
+              //$('#menu').css('display','none');
+          }
+        });
+    });				
 });
-*/
+
+
+
 
 var s3 = new AWS.S3({
   apiVersion: '2006-03-01',
   params: {Bucket: albumBucketName}
 });
 
-function getHtml(template) {
-  return template.join('\n');
-}
 
-function listAlbums() {
+function getBucketURL() {
   s3.listObjects({Delimiter: '.jpg'}, function(err, data) {
     if (err) {
-      return alert('There was an error listing your albums: ' + err.message);
+      return alert('There was an error viewing your album: ' + err.message);
+    }
+    // `this` references the AWS.Response instance that represents the response
+    var href = this.request.httpRequest.endpoint.href;
+    bucketUrl = href + albumBucketName + '/';  
+  });
+}
+
+
+//getBucketURL();
+
+
+
+
+function listItems() {
+  s3.listObjects({Delimiter: '.jpg'}, function(err, data) {
+    if (err) {
+      return alert('There was an error listing your Items: ' + err.message);
     } else {
-      var albums = data.CommonPrefixes.map(function(commonPrefix) {
+      var items = data.CommonPrefixes.map(function(commonPrefix) {
         var prefix = commonPrefix.Prefix;
-        var albumName = decodeURIComponent(prefix.replace('/', ''));
+        var itemName = decodeURIComponent(prefix.replace('/', ''));
         return getHtml([
           '<li>',
-            '<span onclick="deleteAlbum(\'' + albumName + '\')">X</span>',
-            '<span onclick="viewAlbum(\'' + albumName + '\')">',
-              albumName,
+            '<span onclick="deleteItem(\'' + itemName + '\')">X</span>',
+            '<span onclick="viewItem(\'' + itemName + '\')">',
+              itemName,
             '</span>',
           '</li>'
         ]);
       });
-      var message = albums.length ?
+      var message = items.length ?
         getHtml([
           '<p>Click on an item name to view it.</p>',
           '<p>Click on the X to delete the item.</p>'
         ]) :
-        '<p>You do not have any albums. Please Create album.';
+        '<p>You do not have any items. Please Create item.';
       var htmlTemplate = [
         '<h2>Lists</h2>',
         message,
         '<ul>',
-          getHtml(albums),
+          getHtml(items),
         '</ul>',
         '<button onclick="createAlbum(prompt(\'Enter Album Name:\'))">',
           'Create New Album',
