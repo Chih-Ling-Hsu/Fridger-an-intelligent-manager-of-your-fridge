@@ -59,13 +59,11 @@ function rendarRecipe(){
                         stepList += '<br><span class="glyphicon glyphicon-arrow-down"></span><br>' + recipe["Steps"][step];
                     }                    
                 }
-                console.log(stepList);
                 
                 var ingList = "";
                 for(ing in recipe["Ingredients"]){
                     ingList += '&nbsp;<code>' + recipe["Ingredients"][ing] + '</code>';
                 }
-                console.log(ingList);
 
                 recipePage += getHtml([
                     '<div class="col-sm-4">',
