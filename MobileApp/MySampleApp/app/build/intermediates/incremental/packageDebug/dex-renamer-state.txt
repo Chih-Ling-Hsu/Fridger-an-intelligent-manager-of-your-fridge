@@ -1,0 +1,7 @@
+#Sun Jun 11 12:59:03 CST 2017
+base.0=C\:\\Users\\User\\Desktop\\Fridger\\MobileApp\\MySampleApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d95ea28031b838b77562742556577859ed81ab9b
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\User\\Desktop\\Fridger\\MobileApp\\MySampleApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_bd726074f5379dd54421d5715ac64b636f21a5d4\\classes.dex
+base.1=C\:\\Users\\User\\Desktop\\Fridger\\MobileApp\\MySampleApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_bd726074f5379dd54421d5715ac64b636f21a5d4
+file.0=C\:\\Users\\User\\Desktop\\Fridger\\MobileApp\\MySampleApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d95ea28031b838b77562742556577859ed81ab9b\\classes.dex

@@ -1,5 +1,3 @@
-var bucketUrl = "https://s3.amazonaws.com/rekognition-image-102062329/"
-
 $(function(){				
     $('#recipebtn').click(function(e){
         $('#recipebtn').css('background-color','#008b8b');

@@ -1,4 +1,5 @@
 var albumBucketName = 'rekognition-image-102062329';
+var bucketUrl = "https://s3.amazonaws.com/rekognition-image-102062329/"
 
 function getHtml(template) {
   return template.join('\n');

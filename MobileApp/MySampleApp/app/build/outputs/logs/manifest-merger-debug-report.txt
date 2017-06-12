@@ -1,0 +1,266 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:16:1-120:12
+	package
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:17:5-30
+		INJECTED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:16:11-69
+	android:versionCode
+		INJECTED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] C:\Users\User\.android\build-cache\a77144076a72c6c13f55261abc6ce12325211d1d\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] C:\Users\User\.android\build-cache\1911b313dd36acf97a4ebc6a26d4e671674cfac7\output\AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:19:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:20:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:21:5-76
+	android:name
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:21:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:22:5-67
+	android:name
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:22:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:23:5-66
+	android:name
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:23:22-63
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:24:5-82
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] C:\Users\User\.android\build-cache\a77144076a72c6c13f55261abc6ce12325211d1d\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] C:\Users\User\.android\build-cache\1911b313dd36acf97a4ebc6a26d4e671674cfac7\output\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:24:22-79
+permission#com.amazon.mysampleapp.permission.C2D_MESSAGE
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:25:5-26:47
+	android:protectionLevel
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:25:17-77
+uses-permission#com.amazon.mysampleapp.permission.C2D_MESSAGE
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:27:5-85
+	android:name
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:27:22-82
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:28:5-71
+	android:name
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:28:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:29:5-74
+	android:name
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:29:22-71
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:30:5-80
+	android:name
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:30:22-77
+application
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:32:5-119:19
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] C:\Users\User\.android\build-cache\a77144076a72c6c13f55261abc6ce12325211d1d\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] C:\Users\User\.android\build-cache\1911b313dd36acf97a4ebc6a26d4e671674cfac7\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\User\.android\build-cache\d1a87db7b5f54209e808c0dc60bd5d24626307db\output\AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-base:9.8.0] C:\Users\User\.android\build-cache\f1c76408a1e46ded61e0e4db1397b3ce23f2eadc\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] C:\Users\User\.android\build-cache\d58b4ff70b2c0733cf32d12651eb1a58471f1a45\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] C:\Users\User\.android\build-cache\228d041491877696027c84baedb95dc18aaabe0a\output\AndroidManifest.xml:19:5-21:19
+MERGED from [MySampleApp:AWSMobileHelper:unspecified] C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\AWSMobileHelper\build\intermediates\bundles\default\AndroidManifest.xml:19:5-28:19
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\User\.android\build-cache\c507187986d24559a71d4ea54a50488e60bb09ad\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\User\.android\build-cache\79435617d73400ca9751e2bcfd69865d7ab110ab\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\User\.android\build-cache\8d2da8e0bd3d7d6faf38666d83d667fd2bedb669\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\User\.android\build-cache\999d5d68ec43f7c18dc4cd978d50946fecc990f0\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\User\.android\build-cache\359b1c6cbfeaba44d3f247f042aeac69ea2fd8d1\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\User\.android\build-cache\4ac0e9d647f6dfafbcb871be5599e7934a0adeee\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\User\.android\build-cache\186274f8a64ea997139965809e8b1270df68ba03\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\User\.android\build-cache\84a955522d74321f2968db4d3cf34dcef6277eb7\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\User\.android\build-cache\96d321f49fbde72927812060cf216b7e929dfbc2\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:35:9-41
+	android:supportsRtl
+		ADDED from [MySampleApp:AWSMobileHelper:unspecified] C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\AWSMobileHelper\build\intermediates\bundles\default\AndroidManifest.xml:22:9-35
+	android:allowBackup
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:33:9-35
+	android:icon
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:34:9-43
+	android:theme
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:36:9-40
+	android:name
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:37:9-51
+activity#com.mysampleapp.SplashActivity
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:39:9-47:20
+	android:label
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:41:13-45
+	android:configChanges
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:42:13-83
+	android:name
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:40:13-43
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:43:13-46:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:44:17-69
+	android:name
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:44:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:45:17-77
+	android:name
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:45:27-74
+activity#com.mysampleapp.MainActivity
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:48:9-52:20
+	android:label
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:51:13-56
+	android:launchMode
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:50:13-48
+	android:name
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:49:13-41
+service#com.amazonaws.mobileconnectors.s3.transferutility.TransferService
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:62:9-124
+	android:enabled
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:62:99-121
+	android:name
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:62:18-98
+service#com.amazonaws.mobile.downloader.service.DownloadService
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:64:9-91
+	android:name
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:64:18-88
+receiver#com.amazonaws.mobile.downloader.service.NetworkStateListener
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:66:9-72:20
+	android:enabled
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:68:19-42
+	android:exported
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:67:19-43
+	android:name
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:66:19-94
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:69:13-71:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:70:17-78
+	android:name
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:70:25-76
+provider#com.amazonaws.mobile.downloader.query.DownloadQueueProvider
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:74:9-79:20
+	android:authorities
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:76:13-76
+	android:enabled
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:77:13-35
+	android:exported
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:78:13-37
+	android:name
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:75:6-80
+provider#android.support.v4.content.FileProvider
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:81:9-89:20
+	android:authorities
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:83:13-74
+	android:grantUriPermissions
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:85:13-47
+	android:exported
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:84:13-37
+	android:name
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:82:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:86:13-88:66
+	android:resource
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:88:17-63
+	android:name
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:87:17-67
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:93:9-95:69
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] C:\Users\User\.android\build-cache\228d041491877696027c84baedb95dc18aaabe0a\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:95:13-66
+	android:name
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:94:13-58
+receiver#com.google.android.gms.gcm.GcmReceiver
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:99:9-107:20
+	android:exported
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:101:13-36
+	android:permission
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:102:13-73
+	android:name
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:100:13-66
+intent-filter#@string/google_cloud_messaging_package+com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:103:13-106:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:104:17-81
+	android:name
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:104:25-78
+category#@string/google_cloud_messaging_package
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:105:17-83
+	android:name
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:105:27-80
+service#com.mysampleapp.PushListenerService
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:109:9-115:19
+	android:exported
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:111:13-37
+	android:name
+		ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:110:13-48
+intent-filter#com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml:112:13-114:29
+uses-sdk
+INJECTED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] C:\Users\User\.android\build-cache\a77144076a72c6c13f55261abc6ce12325211d1d\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] C:\Users\User\.android\build-cache\1911b313dd36acf97a4ebc6a26d4e671674cfac7\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\User\.android\build-cache\d1a87db7b5f54209e808c0dc60bd5d24626307db\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth-base:9.8.0] C:\Users\User\.android\build-cache\11ce054ac357e513fbe509440d9d5e350dceb64b\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-base:9.8.0] C:\Users\User\.android\build-cache\f1c76408a1e46ded61e0e4db1397b3ce23f2eadc\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] C:\Users\User\.android\build-cache\d58b4ff70b2c0733cf32d12651eb1a58471f1a45\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] C:\Users\User\.android\build-cache\228d041491877696027c84baedb95dc18aaabe0a\output\AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\User\.android\build-cache\1215a97d76de123bf5385d31aefb6c179150097f\output\AndroidManifest.xml:18:5-42
+MERGED from [MySampleApp:AWSMobileHelper:unspecified] C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\AWSMobileHelper\build\intermediates\bundles\default\AndroidManifest.xml:15:5-17:41
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\User\.android\build-cache\c507187986d24559a71d4ea54a50488e60bb09ad\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\User\.android\build-cache\79435617d73400ca9751e2bcfd69865d7ab110ab\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\User\.android\build-cache\8d2da8e0bd3d7d6faf38666d83d667fd2bedb669\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\User\.android\build-cache\999d5d68ec43f7c18dc4cd978d50946fecc990f0\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\User\.android\build-cache\359b1c6cbfeaba44d3f247f042aeac69ea2fd8d1\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\User\.android\build-cache\4ac0e9d647f6dfafbcb871be5599e7934a0adeee\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\User\.android\build-cache\186274f8a64ea997139965809e8b1270df68ba03\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\User\.android\build-cache\84a955522d74321f2968db4d3cf34dcef6277eb7\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\User\.android\build-cache\96d321f49fbde72927812060cf216b7e929dfbc2\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.2.0] C:\Users\User\.android\build-cache\c507187986d24559a71d4ea54a50488e60bb09ad\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\User\.android\build-cache\d1a87db7b5f54209e808c0dc60bd5d24626307db\output\AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\User\.android\build-cache\d1a87db7b5f54209e808c0dc60bd5d24626307db\output\AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\User\.android\build-cache\d1a87db7b5f54209e808c0dc60bd5d24626307db\output\AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\User\.android\build-cache\d1a87db7b5f54209e808c0dc60bd5d24626307db\output\AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\User\.android\build-cache\d1a87db7b5f54209e808c0dc60bd5d24626307db\output\AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\User\.android\build-cache\d1a87db7b5f54209e808c0dc60bd5d24626307db\output\AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\User\.android\build-cache\d1a87db7b5f54209e808c0dc60bd5d24626307db\output\AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\User\.android\build-cache\d1a87db7b5f54209e808c0dc60bd5d24626307db\output\AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\User\.android\build-cache\d1a87db7b5f54209e808c0dc60bd5d24626307db\output\AndroidManifest.xml:24:18-63
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.8.0] C:\Users\User\.android\build-cache\f1c76408a1e46ded61e0e4db1397b3ce23f2eadc\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] C:\Users\User\.android\build-cache\f1c76408a1e46ded61e0e4db1397b3ce23f2eadc\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] C:\Users\User\.android\build-cache\f1c76408a1e46ded61e0e4db1397b3ce23f2eadc\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] C:\Users\User\.android\build-cache\f1c76408a1e46ded61e0e4db1397b3ce23f2eadc\output\AndroidManifest.xml:19:19-85
+activity#com.amazonaws.mobilehelper.auth.signin.SignInActivity
+ADDED from [MySampleApp:AWSMobileHelper:unspecified] C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\AWSMobileHelper\build\intermediates\bundles\default\AndroidManifest.xml:23:9-27:20
+	android:label
+		ADDED from [MySampleApp:AWSMobileHelper:unspecified] C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\AWSMobileHelper\build\intermediates\bundles\default\AndroidManifest.xml:26:13-59
+	android:configChanges
+		ADDED from [MySampleApp:AWSMobileHelper:unspecified] C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\AWSMobileHelper\build\intermediates\bundles\default\AndroidManifest.xml:25:13-83
+	android:name
+		ADDED from [MySampleApp:AWSMobileHelper:unspecified] C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\AWSMobileHelper\build\intermediates\bundles\default\AndroidManifest.xml:24:13-81

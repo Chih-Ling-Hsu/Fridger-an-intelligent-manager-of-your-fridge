@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/main_background"
+    android:layout_centerVertical="true"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_dialog"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="@string/home_intro"
+        android:padding="15dp"
+        android:gravity="center"
+        android:clickable="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:background="@drawable/home_dialog" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:src="@mipmap/triangle"
+        android:layout_marginRight="40dp"
+        android:layout_below="@id/txt_dialog"
+        android:id="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView_demoHomeIconImage"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:src="@mipmap/fridge"
+        android:scaleType="fitCenter"
+        />
+
+      <!--<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/textView_demoHomeIntro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/home_intro"
+            android:gravity="center"
+            android:textColor="#808080"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="normal|italic"
+            />
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="@string/blank"
+            />-->
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:src="@mipmap/triangle2"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/txt_dialog"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_recipe"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:clickable="true"
+        android:text="Hello, user.\nPlease log in first."
+        android:padding="15dp"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:background="@drawable/home_recipe" />
+</LinearLayout>
