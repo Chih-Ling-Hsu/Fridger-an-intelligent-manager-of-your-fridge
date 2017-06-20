@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Fridger\\MobileApp\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\User\\Desktop\\Fridger\\MobileApp\\MySampleApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\Fridger\\MobileApp\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\splash_icon.png",
+        "source": "C:\\Users\\User\\Desktop\\Fridger\\MobileApp\\MySampleApp\\app\\src\\main\\res\\mipmap-hdpi\\splash_icon.png"
+    }
+]

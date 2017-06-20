@@ -1,7 +1,7 @@
 // Create an SQS service object
 var sqs = new AWS.SQS({apiVersion: '2012-11-05'});
-var queueURL_in = "https://sqs.us-east-1.amazonaws.com/593733335849/input";
-var queueURL_out = "https://sqs.us-east-1.amazonaws.com/593733335849/output";
+var queueURL_in;
+var queueURL_out;
 
 function requestRecipe(key){
     var params = {

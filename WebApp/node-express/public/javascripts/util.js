@@ -1,4 +1,5 @@
-var albumBucketName = 'rekognition-image-102062329';
+var albumBucketName;
+var bucketUrl;
 
 function getHtml(template) {
   return template.join('\n');

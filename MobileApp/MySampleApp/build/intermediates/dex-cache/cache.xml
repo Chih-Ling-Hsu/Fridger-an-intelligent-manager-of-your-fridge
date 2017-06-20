@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c3956c06d851ac1df681db5221219ef80995001b">
+        <dex dex="C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bd726074f5379dd54421d5715ac64b636f21a5d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\User\Desktop\Fridger\MobileApp\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d95ea28031b838b77562742556577859ed81ab9b\classes.dex" />
+    </item>
+
+</items>

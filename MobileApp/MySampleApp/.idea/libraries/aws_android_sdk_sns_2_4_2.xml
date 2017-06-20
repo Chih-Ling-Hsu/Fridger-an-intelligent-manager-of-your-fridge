@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="aws-android-sdk-sns-2.4.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-sns/2.4.2/739d4f7ed5df795c4fdec74c069f5617a43f683a/aws-android-sdk-sns-2.4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-sns/2.4.2/6c64c4ae725d8d58652f486154d8a4ad36c40c1a/aws-android-sdk-sns-2.4.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
