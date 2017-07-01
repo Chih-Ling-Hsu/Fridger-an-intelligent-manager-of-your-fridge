@@ -6,26 +6,21 @@
 - Recognize the foods that are taken out from the fridge.
 - Manage the content in the fridge by the two results that are mentioned above, and show the lists and images to the users when they are making inquiry by the phone.
 
-<img src="http://i.imgur.com/ppuhID9.png" style="diaplay:inline; max-width:30%;"></img>
-<img src="http://i.imgur.com/9DkpqPx.png" style="diaplay:inline; max-width:30%;"></img>
-<img src="http://i.imgur.com/vUeoXxF.png" style="diaplay:inline; max-width:30%;"></img>
+![](http://i.imgur.com/QaLDjoV.png)
+
 
 ### 食物過期提醒 Expiration Alarm
 - Estimate the expiration date of the food according to what category it's in.
 - When a specific food is placed in the fridge too long, notify the user by sending a message to the user's phone. 
 
-<img src="http://i.imgur.com/wfhEBBF.png" style="diaplay:inline; max-width:30%;"></img>
-<img src="http://i.imgur.com/6yZeGDL.png" style="diaplay:inline; max-width:30%;"></img>
+![](http://i.imgur.com/ydvzqBP.png)
 
 
 ### 食譜小助手 Recipe assistant
 - Check whether the required foods that are list in the recipe are sufficient or not.
 - Recipe recommendation.
 
-<img src="http://i.imgur.com/bhb5FXj.png" style="diaplay:inline; max-width:30%;"></img>
-<img src="http://i.imgur.com/yTFuoEV.png" style="diaplay:inline; max-width:30%;"></img>
-<img src="http://i.imgur.com/JuETRqC.png" style="diaplay:inline; max-width:30%;"></img>
-<img src="http://i.imgur.com/0aBshoy.png" style="diaplay:inline; max-width:30%;"></img>
+![](http://i.imgur.com/CxGXvY7.png)
 
 ## System Architecture Plot
 
