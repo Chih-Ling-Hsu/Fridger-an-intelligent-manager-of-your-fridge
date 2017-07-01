@@ -1,21 +1,38 @@
+![](http://i.imgur.com/6R4zdSz.png)
+
 ## Use Scenario
-- 冰箱空間管理 Fridge Management
-    - Raspberry Pi - Recognize the foods that are going to be put in the fridge.
-    - Raspberry Pi - Recognize the foods that are taken out from the fridge.
-    - Manage the content in the fridge by the two       results that are mentioned above, and show the lists and images to the users when they are making inquiry by the phone.
-- 食物過期提醒 Expiration Alarm
-    - Estimate the expiration date of the food according to what category it's in.
-    - When a specific food is placed in the fridge too long, notify the user by sending a message to the user's phone. 
-- 食譜小助手 Recipe assistant
-    - Check whether the required foods that are list in the recipe are sufficient or not.
-    - Recipe recommendation.
+### 冰箱空間管理 Fridge Management
+- Recognize the foods that are going to be put in the fridge.
+- Recognize the foods that are taken out from the fridge.
+- Manage the content in the fridge by the two results that are mentioned above, and show the lists and images to the users when they are making inquiry by the phone.
+
+<img src="http://i.imgur.com/ppuhID9.png" style="diaplay:inline; width:300px;"></img>
+<img src="http://i.imgur.com/9DkpqPx.png" style="diaplay:inline; width:300px;"></img>
+<img src="http://i.imgur.com/vUeoXxF.png" style="diaplay:inline; width:300px;"></img>
+
+### 食物過期提醒 Expiration Alarm
+- Estimate the expiration date of the food according to what category it's in.
+- When a specific food is placed in the fridge too long, notify the user by sending a message to the user's phone. 
+
+<img src="http://i.imgur.com/wfhEBBF.png" style="diaplay:inline; width:300px;"></img>
+<img src="http://i.imgur.com/6yZeGDL" style="diaplay:inline; width:300px;"></img>
+
+
+### 食譜小助手 Recipe assistant
+- Check whether the required foods that are list in the recipe are sufficient or not.
+- Recipe recommendation.
+
+<img src="http://i.imgur.com/bhb5FXj.png" style="diaplay:inline; width:300px;"></img>
+<img src="http://i.imgur.com/yTFuoEV.png" style="diaplay:inline; width:300px;"></img>
+<img src="http://i.imgur.com/JuETRqC.png" style="diaplay:inline; width:300px;"></img>
+<img src="http://i.imgur.com/0aBshoy.png" style="diaplay:inline; width:300px;"></img>
 
 ## System Architecture Plot
 
 ![](https://i.imgur.com/tKNtdAo.png)
 
 
-## Services to Be Used
+## AWS Services Used
 
 - **Compute**
     - Elastic Beanstalk : To deploy and scaling web applications and services.
